@@ -138,6 +138,9 @@ function saveToHistory(city, data) {
         console.error('Error saving history:', error);
     }
 }
+app.get("/", (req, res) => {
+  res.send("Weather Backend is running 🚀");
+});
 
 // ============================================
 // START SERVER
