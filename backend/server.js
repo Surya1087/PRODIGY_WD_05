@@ -1,3 +1,11 @@
+const path = require("path");
+
+app.use(express.static(path.join(__dirname, "../frontend")));
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../frontend/index.html"));
+});
+
 // Import required packages
 const express = require('express');
 const cors = require('cors');
@@ -138,9 +146,7 @@ function saveToHistory(city, data) {
         console.error('Error saving history:', error);
     }
 }
-app.get("/", (req, res) => {
-  res.send("Weather Backend is running 🚀");
-});
+
 
 // ============================================
 // START SERVER
