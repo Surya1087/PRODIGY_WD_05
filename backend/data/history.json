@@ -1,0 +1,53 @@
+{
+  "searches": [
+    {
+      "city": "delhi",
+      "country": "IN",
+      "temp": 12,
+      "condition": "Mist",
+      "timestamp": "2026-02-04T19:49:58.729Z"
+    },
+    {
+      "city": "Sonari Town",
+      "country": "IN",
+      "temp": 20,
+      "condition": "Clear",
+      "timestamp": "2026-02-04T19:49:51.137Z"
+    },
+    {
+      "city": "Gangtok",
+      "country": "IN",
+      "temp": 12,
+      "condition": "Clouds",
+      "timestamp": "2026-02-04T19:38:13.261Z"
+    },
+    {
+      "city": "sikkim",
+      "country": "IN",
+      "temp": -16,
+      "condition": "Clouds",
+      "timestamp": "2026-02-04T19:34:17.260Z"
+    },
+    {
+      "city": "pune",
+      "country": "IN",
+      "temp": 24,
+      "condition": "Clouds",
+      "timestamp": "2026-02-04T19:33:39.653Z"
+    },
+    {
+      "city": "Bihar",
+      "country": "RO",
+      "temp": 8,
+      "condition": "Clear",
+      "timestamp": "2026-02-04T19:30:54.136Z"
+    },
+    {
+      "city": "Jamshedpur",
+      "country": "IN",
+      "temp": 21,
+      "condition": "Clouds",
+      "timestamp": "2026-02-04T19:29:22.321Z"
+    }
+  ]
+}
